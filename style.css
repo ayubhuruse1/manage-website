@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Fjalla+One&family=Londrina+Shadow&family=Poller+One&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600&family=Public+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#blk-card{
+    background-color: rgb(245, 245, 245);
+}
+.header a:hover {
+    color: rgb(220, 151, 24);
+}
+
+.navbar-cta {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+#logo {
+    font-size: 40px;
+}
+
+nav, nav a {
+    background-color: transparent;
+}
+
+a {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#hero-sec {
+    background: url(/images/bg-tablet-pattern.svg)top right no-repeat;
+    background-position: 700px -200px;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    height: 80vh;
+    width: 100% auto;
+}
+
+#background-img {
+    width: 600px;
+    height: 600px;
+}
+
+#hero-sec h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1.0;
+}
+#hero-sec p{
+    margin: 30px 0 30px;
+}
+
+
+
+#hero-sec-timeline h2{
+   font-weight: 600;
+   font-size: 50px;
+   line-height: 1.0;
+}
+
+#hero-sec-timeline #para {
+    margin: 30px 0 30px;
+}
+/* #hero-sec-timeline {
+    background: url(/images/bg-tablet-pattern.svg);
+    background-position: left;
+    background-size: cover;
+} */
+
+
+/* button  */
+.btn {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: rgb(237, 94, 5);
+    color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .3s ease;
+   }
+   
+   .btn:hover {
+    letter-spacing: 3px;
+    background-color: rgb(black);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(235, 146, 12) 0px 7px 29px 0px;
+   }
+   
+   .btn:active {
+    letter-spacing: 3px;
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+    box-shadow: black 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+/* button */
+
+/* timeline */
+/* Timeline Container */
+.timeline {
+  /* background: var(--primary-color); */
+  margin: -450px auto;
+  padding: 100px;
+  display: flex;
+  justify-content: flex-end;
+  height: 120vh;
+
+}
+
+.timeline-sec {
+    background:url(/images/bg-tablet-pattern.svg) no-repeat;
+    background-position: -400px 400px;
+    background-size: 700px;
+}
+/* Outer Layer with the timeline border */
+/* .outer {
+  border-left: 2px solid #333;
+} */
+
+/* Card container */
+.card {
+  position: relative;
+  margin: 0 0 20px 20px;
+  padding: 10px;
+  background: transparent;
+  color: gray;
+  border-radius: 8px;
+  max-width: 400px;
+  font-size: 18px;
+}
+
+/* Information about the timeline */
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Title of the card */
+.title {
+  color: black;
+  position: relative;
+}
+
+/* Timeline dot  */
+/* .title::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 999px;
+  left: -39px;
+  border: 3px solid orangered;
+} */
+
+.btn-list {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  border-radius: 999px;
+  left: -49px;
+  background-color: orangered;
+  color: white;
+}
+
+
+/* here  */
+
+.test-sec {
+    width: 100% auto;
+    margin: -30px;
+    /* font-weight: 300;
+    font-size: 70px; */
+    /* width: 100% auto; */
+}
+/* .test-sec h2 {
+    width: 50%;
+    padding-bottom: 0;
+    text-align: left;
+    line-height: 1.13;
+    font-size: 3.86rem;
+} */
+.test-sec h2 {
+    font-size: 60px;
+    font-weight:600;
+    margin: 60px 0 60px;
+
+}
+#review-sec-btn {
+    margin: 60px 40% 60px;
+    display: flex;
+    justify-content: center;
+}
+/* #review-sec-btn{
+    align-self: center;
+    margin-top: 0.6rem;
+    margin-right: -0.5rem;
+    height: 4.6rem;
+    width: 13.9rem;
+} */
+
+.bf-footer {
+    background-color: rgb(255, 128, 0);
+    height: 25vh;
+}
+
+
+.bf-footer h2 {
+    font-weight: 600;
+    font-size: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 40px 10px;
+    
+}
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 750px;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  
+
+  #af-footer {
+    background-color: rgb(169, 169, 169);
+    color: white;
+    transition: .3s ease;
+  }
+
+  #af-footer a {
+    color: white;
+  }
+  #af-footer a:hover {
+    color: orange;
+  }
+
+  #af-footer img {
+    color: white;
+  }
+
+  span {
+    color: white;
+  }
+
+  #logo {
+    text-decoration: white;
+  }
+
+  .bf-footer button {
+    background-color: white;
+    color: rgb(255, 128, 0);
+    width: 100%;
+    height: 40%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+  }
+
+  .bf-footer button:hover {
+    color: white;
+    background-color: rgb(255, 128, 0);
+  }
+
+  #af-footer button {
+    background-color: orange;
+    color: black;
+    width: 50%;
+
+  }
